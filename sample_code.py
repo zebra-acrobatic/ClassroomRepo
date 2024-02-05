@@ -1,3 +1,8 @@
+'''
+Sample Code for class
+'''
+import time
+
 # Ask the user for input between 1 and 3
 user_input = input("Enter a number between 1 and 3: ")
 
