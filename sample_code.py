@@ -4,7 +4,7 @@ Sample Code for class
 import time
 
 # Ask the user for input between 1 and 3
-user_input = input("Enter a number between 1 and 3: ")
+user_input = input("Enter a number between 1 and 4: ")
 
 # Check user input and provide corresponding output
 if user_input == '1':
@@ -14,5 +14,7 @@ elif user_input == '2':
 elif user_input == '3':
     current_time = time.strftime("%H:%M:%S", time.localtime())
     print(f"You chose 3. The current time is {current_time}.")
+elif user_input == '4':
+    print("You chose 4. This was made as a test for a fork by Scott Bradley.")
 else:
-    print("Invalid input. Please enter a number between 1 and 3.")
+    print("Invalid input. Please enter a number between 1 and 4.")
