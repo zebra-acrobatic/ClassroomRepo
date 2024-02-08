@@ -15,4 +15,4 @@ elif user_input == '3':
     current_time = time.strftime("%H:%M:%S", time.localtime())
     print(f"You chose 3. The current time is {current_time}.")
 else:
-    print("Invalid input. Please enter a number between 1 and 3.")
+    print("Can't you read? Please enter a number between 1 and 3.")
