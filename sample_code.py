@@ -16,6 +16,8 @@ elif user_input == '3':
     print(f"You chose 3. The current time is {current_time}.")
 elif user_input == '4':
     print("You chose 4. What a shame...")
+elif user_input >= 9000:
+    print("Your number was too great for our code. The power levels are off the charts!!")
 else:
     print("Invalid input. Please enter a number between 1 and 3.")
 # Luke Skywalker was here
