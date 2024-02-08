@@ -5,7 +5,7 @@ import time
 
 # Ask the user for input between 1 and 3
 user_input = input("Enter a number between 1 and 3: ")
-
+# Luke Skywalker was here
 # Check user input and provide corresponding output
 if user_input == '1':
     print("You chose 1. Something interesting could be said here.")
@@ -18,3 +18,4 @@ elif user_input == '4':
     print("You chose 4. What a shame...")
 else:
     print("Invalid input. Please enter a number between 1 and 3.")
+# Luke Skywalker was here
