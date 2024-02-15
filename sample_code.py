@@ -7,7 +7,7 @@ import time
 list_of_results = [
     "Something interesting could be said here.", 
     "Here's something else for you.", 
-    "The current time is {0}", 
+    "The current time is {timeout}", 
     "What a shame..."
 ]
 
@@ -36,7 +36,7 @@ def main_code_block():
     # Checks that the number has a result within `list_of_results` and returns the value found.
     elif (exists_in_table(int_input)):
         current_time = time.strftime("%H:%M:%S", time.localtime())
-        output = list_of_results[int(int_input-1)].format(current_time)
+        output = list_of_results[int(int_input-1)].format(timeout = current_time)
         print(f"You chose {int_input}. {output}")
     # If the number is greater than the length of the list and is less than 9000, return an apology.
     else:
