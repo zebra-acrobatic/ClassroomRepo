@@ -3,6 +3,7 @@ Sample Code for class
 '''
 import time
 
+# Luke Skywalker was here
 list_of_results = [
     "Something interesting could be said here.", 
     "Here's something else for you.", 
@@ -44,21 +45,4 @@ def main_code_block():
 
 main_code_block()
 input("")
-# Ask the user for input between 1 and 3
-user_input = input("Enter a number between 1 and 3: ")
-# Luke Skywalker was here
-# Check user input and provide corresponding output
-if user_input == '1':
-    print("You chose 1. Something interesting could be said here.")
-elif user_input == '2':
-    print("You chose 2. Here's something else for you.")
-elif user_input == '3':
-    current_time = time.strftime("%H:%M:%S", time.localtime())
-    print(f"You chose 3. The current time is {current_time}.")
-elif user_input == '4':
-    print("You chose 4. What a shame...")
-elif user_input >= 9000:
-    print("Your number was too great for our code. The power levels are off the charts!!")
-else:
-    print("Invalid input. Please enter a number between 1 and 3.")
 # Luke Skywalker was here
